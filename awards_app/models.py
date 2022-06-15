@@ -29,4 +29,20 @@ class Profile(models.Model):
 
 
 
-        
+class Post(models.Model):
+    title=models.CharField(max_length=200)
+    description=models.TextField(max_length=300)
+    url= models.URLField(max_length=400)
+    photo=models.ForeignKey(User, on_delete=models.CASCADE,relate_name="posts")
+    upload_date=models.DateTimeField(auto_now_add=True, blank=True)
+    technologied_used= models.CharField(max_length=200, blank=True)
+
+    def __str__(self):
+        return f'{self.title}'
+
+
+    def delete_post(self):
+        self.delete()
+
+    @classmethod
+    def search
