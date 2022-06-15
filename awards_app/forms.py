@@ -20,3 +20,10 @@ class NewUserForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+
+class PostForm(forms.ModelForm):
+
+    class Meta:
+        model = PostForm
+        fields = ('photo', 'title', 'description', 'technologies_used',)
