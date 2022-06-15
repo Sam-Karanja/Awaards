@@ -45,4 +45,12 @@ class Post(models.Model):
         self.delete()
 
     @classmethod
-    def search
+    def search_project(cls, title):
+        return cls.objects.filter(title__icontains=title).all()
+
+    @classmethod
+    def all_posts(cls):
+        return cls.objects.all()
+
+    def save_post(self):
+        self.save()
