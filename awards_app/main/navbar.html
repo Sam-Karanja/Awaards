@@ -1,3 +1,36 @@
 <nav>
     <a class="navbar-brand" href="#" style="color: white;">#StopWarInUkraine <i class="fa fa-flag" aria-hidden="true"></i> Save the children</a>
   </nav> 
+
+
+  <div class="top-nav" id="top-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick = "closeNav"()>x</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+<div id="main">
+    <ul>
+        <li id="listone">
+          <p class="openbtn" onclick="openNav()"> <small> English</small></p>
+        </li>
+        <li>The awards of design innovation and creativity on the internet</li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-facebook" aria-hidden="true"></i>></i></li>
+    </ul>
+    
+
+    
+</div>
+
+<script>
+  function openNav(){
+    document.getElementById("top-nav").style.width = "250px";
+    document.geyElementById("main").style.marginleft = "250pc";
+  }
+
+  function closeNav(){
+    document.getElementById("top-nav").style.width = 0;
+    document.getElementById("main").style.marginleft = 0;
+</script>
