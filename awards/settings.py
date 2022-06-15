@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     # 'projects.apps.ProjectsConfig',
     'bootstrap4',
     'phone_field',
+    'tinymce',
+    ;
 ]
 
 MIDDLEWARE = [
