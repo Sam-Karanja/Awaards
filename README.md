@@ -39,12 +39,11 @@ Click on this link to view the website in github https://github.com/Sam-Karanja/
 
 
 ## known Bugs
-Currently there are no known bugs, but incase of any reach to me through musyokasieva@gmail.com.
+Currently there are no known bugs, but incase of any reach to me through karanjasam210@gmail.com.
 
 ## contact information
--  linkedin: sieva musyoka
--  github : sieva_cmd
--  email : musyokasieva@gmail.com
+-  github : Sam-Karanja
+-  email : karanjasam210a@gmail.com
 
 ## Licence 
  MIT License ()
